@@ -1,5 +1,7 @@
 # Manasa Portfolio Website
-
+## 📸 Project Preview
+![Portfolio Screenshot 1](screenshot1.png)
+![Portfolio Screenshot 2](screenshot2.png)
 ## Tech Stack
 - HTML
 - CSS
