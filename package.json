@@ -4,7 +4,7 @@
   "description": "![Portfolio Screenshot 1](screenshot1.png)\r ![Portfolio Screenshot 2](screenshot2.png)\r ## Tech Stack\r - HTML\r - CSS\r - JavaScript\r - Node.js\r - Express.js\r - MySQL",
   "main": "portofolio.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
