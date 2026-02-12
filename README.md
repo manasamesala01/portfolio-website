@@ -1,7 +1,12 @@
 # Manasa Portfolio Website
 
 ## Tech Stack
-HTML, CSS, JavaScript, Node.js, Express.js, MySQL
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Express.js
+- MySQL
 
 ## About
 This is a personal portfolio website showcasing my web development skills, including backend form handling with database storage.
@@ -14,3 +19,7 @@ This is a personal portfolio website showcasing my web development skills, inclu
 ## How to Run Locally
 
 1. Clone the repo
+2. Run:
+   npm install
+3. Start server:
+   node server.js
