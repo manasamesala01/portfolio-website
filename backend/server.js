@@ -1,6 +1,5 @@
 const express = require("express");
 const cors = require("cors");
-const db = require("./db");
 
 const app = express();
 
@@ -14,14 +13,16 @@ app.post("/contact", (req, res) => {
     return res.status(400).send("All fields required");
   }
 
-  const sql =
-    "INSERT INTO contact_messages (name, email, message) VALUES (?, ?, ?)";
+  console.log("New Message:");
+  console.log("Name:", name);
+  console.log("Email:", email);
+  console.log("Message:", message);
 
-  db.query(sql, [name, email, message], (err) => {
-    if (err) {
-      res.status(500).send("Error");
-    } else {
-      res.send("Message stored");
-    }
-  });
+  res.send("Message received successfully!");
+});
+
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
